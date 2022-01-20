@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- implment bootstrap to the project -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Simplon Generator</title>
+</head>
+ 
+<body>
+    <header>
+        <h1>Simplon Generator</h1>
+    </header>
+    <!-- Container -->
+    <div class="container mt-5 p-5 bg-dark">
+        <!-- the header with the logo name -->
+        <h1 class="text-light text-center mb-5"><span class="text-danger font-weight-bold">Inscription :</span></h1>
+        <!-- the group that contains the label, input field and button -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Nom :</span>
+            </div>
+            <input type="text" class="form-control" id="userInput" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button" onClick="addUserInfo()">Ajouter</button>
+            </div>
+        </div>
+        <!-- the list header -->
+        <h2 class="text-light mt-4">Liste Nom :</h2>
+        <!-- the div that will contains all the list elements -->
+        <div id="display">
+
+        </div>
+    </div>
+
+    <div id="p">
+        <p>Nombre de groupe <input id = "number"> </input></p>
+        <button id="groupInput" onclick ="go()"> GO </button>
+    </div>
+
+    <div id = "result"></div>
+
+    </div>
+
+    <div style="text-align:center">
+    <button id="clear">CLEAR STORAGE</button>
+    </div>
+    <!-- the javascript call -->
+    <script src="app.js"></script>
+</body>
+ 
+</html>

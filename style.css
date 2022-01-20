@@ -1,0 +1,132 @@
+/* TOUT LES ELEMENTS*/
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+/* LE CORP*/
+/*body {
+  background-image: linear-gradient(120deg, #5050f7, #8e5e5e);
+  color: rgb(190, 146, 22);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}*/
+
+/* PARTIE HEADER*/
+/*header {
+  font-size: 1.5rem;
+}*/
+
+/* HEADER + FORM (les memes valeurs ajouter au deux)*/
+/*header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}*/
+
+/*form button {
+  color: #00c9fc;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #00c9fc;
+  color: white;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.todo li {*/
+/*flex: 1;*/ /*Pousse les elements a droite*/
+/*}*/
+
+/*.trash-btn {
+  background: burlywood;
+  color: black;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.trash-btn:hover {
+  color: brown;
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash {
+  pointer-events: none;
+}*/
+
+/* LE CORP*/
+body {
+  background-image: linear-gradient(120deg, #5050f7, #8e5e5e);
+  color: rgb(190, 146, 22);
+}
+
+/* HEADER */
+header {
+  padding: 30px 0;
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+  background: #4e4949;
+}
+
+/* div du paragraphe nombre de groupe */
+
+#p {
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* FOOTER */
+
+/*footer {
+  padding: 30px 0;
+  height: 160px;
+  color: red;
+  text-align: center;
+  background: #4e4949;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}*/
